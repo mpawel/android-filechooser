@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="3dp"
+    android:background="@android:color/darker_gray">
+   
+     <LinearLayout
+		android:orientation="vertical"
+    	android:layout_width="wrap_content"
+    	android:layout_height="fill_parent"
+    	 android:layout_alignParentLeft="true">
+         
+     <TextView android:id="@+id/bookmark_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="1dp"
+        />
+     
+     <TextView android:id="@+id/bookmark_path"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:textSize="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+		/>
+     </LinearLayout>
+     
+	<ImageButton android:id="@+id/bookmark_del"
+	    android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bookmark_del"
+        android:contentDescription="@android:string/cut"
+        android:focusable="false"
+        android:layout_alignParentRight="true"
+        />
+          
+          
+</RelativeLayout>

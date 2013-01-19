@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+         android:id="@+id/filestats"
+         android:textSize="12sp"
+         android:textColor="@android:color/white"
+         android:background="@android:color/background_dark"
+         android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:text="@string/empty"	     
+    />
+    
+    <ScrollView
+    android:id="@+id/filecontentscroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+        <TextView
+            android:id="@+id/filecontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/empty" />
+
+    </ScrollView>
+
+</LinearLayout>

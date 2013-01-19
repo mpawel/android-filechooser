@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"
+        android:icon="@drawable/settings"/>
+    <item
+        android:id="@+id/bookmark"
+        android:title="@string/bookmarks"
+        android:icon="@drawable/book"
+        />
+
+</menu>
